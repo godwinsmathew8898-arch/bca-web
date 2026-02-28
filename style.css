@@ -1,0 +1,23 @@
+    #head{
+
+        color: rgb(233, 44, 44);
+        background-color: rgb(227, 238, 128);
+    }
+
+    .paragraph{
+        color: rgb(3, 43, 43);
+    }
+
+    .refer{
+        color: rgb(211, 124, 17);
+    }
+
+    .button{
+        color: rgb(176, 138, 212);
+        background-color: aqua;
+        border: 2px red double;
+        border-radius: 8px;
+    }
+    .clr{
+        color: rgb(104, 190, 54);
+    }

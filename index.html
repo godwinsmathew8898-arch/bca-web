@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KMCT IETM</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+/* BODY */
+
+body{
+background:#0a0a0f;
+color:white;
+}
+
+
+/* NAVBAR */
+
+nav{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:20px 60px;
+
+position:fixed;
+
+width:100%;
+
+top:0;
+
+background:rgba(0,0,0,0.5);
+
+backdrop-filter:blur(10px);
+
+z-index:1000;
+
+}
+
+.logo{
+
+font-size:22px;
+
+font-weight:bold;
+
+color:#00eaff;
+
+}
+
+
+.menu a{
+
+margin-left:40px;
+
+color:white;
+
+text-decoration:none;
+
+opacity:0.8;
+
+}
+
+.menu a:hover{
+
+opacity:1;
+
+color:#00eaff;
+
+}
+
+
+
+/* HERO */
+
+.hero{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:140px 80px;
+
+}
+
+
+/* TEXT */
+
+.text{
+
+width:50%;
+
+}
+
+
+.text h1{
+
+font-size:52px;
+
+margin-bottom:20px;
+
+}
+
+
+.text p{
+
+color:#bbbbbb;
+
+margin-bottom:30px;
+
+font-size:18px;
+
+}
+
+
+
+/* BUTTON */
+
+.btn{
+
+padding:14px 40px;
+
+border:none;
+
+background:white;
+
+color:black;
+
+border-radius:5px;
+
+cursor:pointer;
+
+transition:0.3s;
+
+margin-right:10px;
+
+}
+
+.btn:hover{
+
+transform:scale(1.05);
+
+}
+
+
+
+/* IMAGE */
+
+.image img{
+
+width:520px;
+
+animation:float 4s infinite;
+
+}
+
+@keyframes float{
+
+0%{transform:translateY(0);}
+50%{transform:translateY(-20px);}
+100%{transform:translateY(0);}
+
+}
+
+
+
+/* COLOR CIRCLES */
+
+
+
+
+.circle2{
+
+position:absolute;
+
+width:70px;
+
+height:70px;
+
+background:#ff6a00;
+
+border-radius:50%;
+
+right:50px;
+
+top:120px;
+
+}
+
+
+.circle3{
+
+position:absolute;
+
+width:60px;
+
+height:60px;
+
+background:#4de1ff;
+
+border-radius:50%;
+
+left:180px;
+
+bottom:120px;
+
+}
+
+
+
+/* SECTIONS */
+
+.section{
+
+padding:80px;
+
+text-align:center;
+
+}
+
+
+.section h2{
+
+color:#00eaff;
+
+margin-bottom:20px;
+
+font-size:36px;
+
+}
+
+
+
+/* CARDS */
+
+.cards{
+
+display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+flex-wrap:wrap;
+
+margin-top:40px;
+
+}
+
+
+.card{
+
+background:#151520;
+
+padding:25px;
+
+border-radius:12px;
+
+width:260px;
+
+transition:0.3s;
+
+}
+
+
+.card:hover{
+
+transform:translateY(-10px);
+
+background:#1f1f2e;
+
+}
+
+
+
+/* GALLERY */
+
+.gallery img{
+
+width:300px;
+
+border-radius:10px;
+
+margin:10px;
+
+transition:0.3s;
+
+}
+
+.gallery img:hover{
+
+transform:scale(1.05);
+
+}
+
+
+
+/* FOOTER */
+
+footer{
+
+background:black;
+
+padding:20px;
+
+text-align:center;
+
+color:gray;
+
+}
+
+
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.hero{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.text{
+
+width:100%;
+
+}
+
+.image img{
+
+width:300px;
+
+margin-top:30px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<!-- NAVBAR -->
+
+<nav>
+
+<div class="logo">
+
+KMCT IETM
+
+</div>
+
+
+<div class="menu">
+
+<a href="#home">Home</a>
+
+<a href="#programs">Programs</a>
+
+<a href="#gallery">Gallery</a>
+
+<a href="#contact">Contact</a>
+
+<a href="#">Login</a>
+
+</div>
+
+</nav>
+
+
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+
+<div class="text">
+
+<h1>
+
+KMCT Institute of Emerging Technology
+
+</h1>
+
+
+<p id="typing">
+
+</p>
+
+
+
+<button class="btn">
+
+Explore
+
+</button>
+
+
+<a href="https://www.kmctemergingtechnology.org/" target="_blank">
+
+<button class="btn">
+
+Official Site
+
+</button>
+
+</a>
+
+
+</div>
+
+
+
+<div class="image">
+
+<img src="https://cdn-icons-png.flaticon.com/512/4140/4140037.png">
+
+</div>
+
+
+</section>
+
+
+
+<div class="circle1"></div>
+
+<div class="circle2"></div>
+
+<div class="circle3"></div>
+
+
+
+
+<!-- PROGRAMS -->
+
+<section id="programs" class="section">
+
+<h2>Programs</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>AI & Data Science</h3>
+
+<p>Artificial Intelligence and Machine Learning program.</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Computer Science</h3>
+
+<p>Programming and software development.</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Cyber Security</h3>
+
+<p>Network security and ethical hacking.</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<!-- GALLERY -->
+
+<section id="gallery" class="section">
+
+<h2>KMCT Campus</h2>
+
+
+<div class="gallery">
+
+
+<img src="https://images.unsplash.com/photo-1562774053-701939374585">
+
+<img src="https://images.unsplash.com/photo-1592280771190-3e2e4d571952">
+
+<img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b">
+
+
+</div>
+
+</section>
+
+
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="section">
+
+<h2>Contact</h2>
+
+
+<p>
+
+KMCT Institute of Emerging Technology and Management
+
+</p>
+
+<p>
+
+Mukkam Kozhikode Kerala
+
+</p>
+
+<p>
+
+Phone: +91 8943072000
+
+</p>
+
+</section>
+
+
+
+
+<footer>
+
+KMCT IETM Website Project © 2026
+
+</footer>
+
+
+
+
+<script>
+
+/* Typing Animation */
+
+var text="KTU Affiliated • AICTE Approved • Smart Campus • Modern Labs";
+
+var i=0;
+
+function typing(){
+
+if(i<text.length){
+
+document.getElementById("typing").innerHTML+=text.charAt(i);
+
+i++;
+
+setTimeout(typing,50);
+
+}
+
+}
+
+typing();
+
+</script>
+
+
+
+</body>
+</html>
